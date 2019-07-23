@@ -90,27 +90,3 @@ public class GPSTracker extends Service implements LocationListener {
 
     }
 }
-
-/*
-*
-*     private GPSTracker gpsTracker;
-
-    private Location mLocation;
-    double mLatitude, mLongitude;
-
-
-
-        gpsTracker = new GPSTracker(getApplicationContext());
-        mLocation = gpsTracker.getLocation();
-
-        mLatitude = mLocation.getLatitude();
-        mLongitude = mLocation.getLongitude();
-
-
-                LatLng mycurrentlocation = new LatLng(mLatitude, mLongitude);
-        mMap.addMarker(new MarkerOptions().position(mycurrentlocation)
-                .title("My Current Location"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mycurrentlocation,20f));
-*
-*
-* */
